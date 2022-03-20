@@ -3,9 +3,9 @@ resources:
   - TargetService:
       Type: AWS::ECS::Service
       Properties:
-        TaskDefinition: "arn:aws:ecs:ap-south-1:463227100790:task-definition/task1:5"
+        TaskDefinition: "arn:aws:ecs:ap-south-1:463227100790:task-definition/tdn1:2"
         LoadBalancerInfo:
-          ContainerName: "c1"
+          ContainerName: "c111"
           ContainerPort: 80
 os: linux
 files:
